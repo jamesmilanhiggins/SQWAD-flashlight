@@ -5,7 +5,7 @@
  */
 
 var elasticsearch = require('elasticsearch'),
-  conf = require('./config'),
+  conf = require('./config.example.js'),
   fbutil = require('./lib/fbutil'),
   PathMonitor = require('./lib/PathMonitor'),
   SearchQueue = require('./lib/SearchQueue');
